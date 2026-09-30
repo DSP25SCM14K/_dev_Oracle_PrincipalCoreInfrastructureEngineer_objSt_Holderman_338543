@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 780" fill="none">
+  <defs>
+    <linearGradient id="g" x1="240" y1="130" x2="930" y2="640" gradientUnits="userSpaceOnUse"><stop stop-color="#55d3f3" stop-opacity=".9"/><stop offset="1" stop-color="#948cff" stop-opacity=".45"/></linearGradient>
+    <radialGradient id="r"><stop stop-color="#4db9e6" stop-opacity=".22"/><stop offset="1" stop-color="#092033" stop-opacity="0"/></radialGradient>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="7"/></filter>
+  </defs>
+  <ellipse cx="618" cy="372" rx="495" ry="320" fill="url(#r)"/>
+  <g stroke="url(#g)" stroke-opacity=".27" stroke-width="1">
+    <path d="M197 248 385 318 572 219 761 311 976 221"/><path d="M197 248 286 422 489 495 720 451 976 221"/>
+    <path d="M385 318 286 422M385 318 489 495M572 219 489 495M572 219 720 451M761 311 720 451M761 311 976 221"/>
+    <path d="M197 248 228 143 384 127 572 219M976 221 1002 375 866 547 720 451"/>
+    <path d="M228 143 421 191 384 318M421 191 572 219M866 547 755 597 720 451M866 547 1002 375"/>
+    <path d="M286 422 194 533 365 623 489 495M489 495 631 638 755 597M572 219 666 106 845 138 976 221"/>
+  </g>
+  <g stroke="#7bdcff" stroke-opacity=".24" stroke-width="1" stroke-dasharray="3 10">
+    <ellipse cx="594" cy="365" rx="440" ry="170" transform="rotate(-13 594 365)"/><ellipse cx="594" cy="365" rx="352" ry="252" transform="rotate(29 594 365)"/>
+  </g>
+  <g fill="#102a3a" stroke="#80d9f2" stroke-opacity=".5">
+    <rect x="154" y="213" width="86" height="68" rx="11"/><rect x="342" y="283" width="86" height="68" rx="11"/>
+    <rect x="529" y="184" width="86" height="68" rx="11"/><rect x="718" y="276" width="86" height="68" rx="11"/>
+    <rect x="933" y="187" width="86" height="68" rx="11"/><rect x="243" y="388" width="86" height="68" rx="11"/>
+    <rect x="446" y="461" width="86" height="68" rx="11"/><rect x="677" y="417" width="86" height="68" rx="11"/>
+    <rect x="959" y="341" width="86" height="68" rx="11"/><rect x="823" y="513" width="86" height="68" rx="11"/>
+  </g>
+  <g stroke="#79cfea" stroke-opacity=".4">
+    <path d="M170 233h54M170 246h54M170 259h54M358 303h54M358 316h54M358 329h54M545 204h54M545 217h54M545 230h54"/>
+    <path d="M734 296h54M734 309h54M734 322h54M949 207h54M949 220h54M949 233h54M259 408h54M259 421h54M259 434h54"/>
+    <path d="M462 481h54M462 494h54M462 507h54M693 437h54M693 450h54M693 463h54M975 361h54M975 374h54M975 387h54"/>
+  </g>
+  <g fill="#c5f6ff">
+    <circle cx="197" cy="248" r="4"/><circle cx="385" cy="318" r="4"/><circle cx="572" cy="219" r="4"/><circle cx="761" cy="311" r="4"/><circle cx="976" cy="221" r="4"/>
+    <circle cx="286" cy="422" r="4"/><circle cx="489" cy="495" r="4"/><circle cx="720" cy="451" r="4"/><circle cx="866" cy="547" r="4"/>
+  </g>
+  <g fill="#8deaff" filter="url(#glow)" opacity=".45"><circle cx="197" cy="248" r="11"/><circle cx="572" cy="219" r="12"/><circle cx="720" cy="451" r="11"/><circle cx="976" cy="221" r="12"/></g>
+  <g fill="#83cfe4" fill-opacity=".42" font-family="monospace" font-size="11" letter-spacing="2"><text x="145" y="176">REGIONAL DATA PLANE</text><text x="802" y="612">REPLICATE / VERIFY / RECOVER</text></g>
+</svg>
